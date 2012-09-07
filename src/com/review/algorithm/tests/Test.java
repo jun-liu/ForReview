@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.review.algorithm.test;
+package com.review.algorithm.tests;
 
 /**
  * @author Liu jun
