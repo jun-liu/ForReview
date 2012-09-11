@@ -8,5 +8,8 @@ package com.review.algorithm;
  *
  */
 public class Algorithm {
-
+	private int m_count;
+	Algorithm(int count){
+		m_count = count;
+	}
 }
