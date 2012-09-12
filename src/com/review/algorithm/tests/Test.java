@@ -3,6 +3,8 @@
  */
 package com.review.algorithm.tests;
 
+import java.util.Stack;
+
 import com.review.algorithm.Algorithm;
 
 /**
@@ -24,8 +26,14 @@ public class Test {
 //		Algorithm a = new Algorithm(99);
 //		System.out.println(a.m_count);
 		//正确，私有成员类中可见
-		Test t = new Test(99);
-		System.out.println(t.m_count);//？？疑问？？实例可以直接访问其私有成员变量？
+		Stack s = new Stack();
+		s.push("s1");
+		s.push("s2");
+		while(!s.isEmpty())
+			System.out.println(s.pop());
+		
+//		Test t = new Test(99);
+//		System.out.println(t.m_count);//？？疑问？？实例可以直接访问其私有成员变量？
 	}
 
 }

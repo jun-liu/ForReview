@@ -64,7 +64,7 @@ public class testFullArray {
 			}
 		}
 	}
-	
+	//·½·¨¶þ
 	public static void pailie(String s, String p){
 		int index[] = new int[s.length()];
 		if(s.length() < 1){
