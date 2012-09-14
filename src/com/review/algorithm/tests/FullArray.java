@@ -15,7 +15,7 @@ import java.util.List;
  * @author justrun
  *
  */
-public class testFullArray {
+public class FullArray {
 	static int count = 0;
 	public static void main(String args[]){
 /*		List<Integer> input = new LinkedList<Integer>();
@@ -68,7 +68,7 @@ public class testFullArray {
 	public static void pailie(String s, String p){
 		int index[] = new int[s.length()];
 		if(s.length() < 1){
-			System.out.println(s+p);
+			System.out.println(p);
 			count ++;
 		}
 		else{

@@ -7,7 +7,7 @@ package com.review.algorithm.tests;
  * @author Liu jun
  *
  */
-public class testNumofOnes {
+public class NumofOnes {
 
 	/**
 	 * @param args

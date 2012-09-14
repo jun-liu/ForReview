@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
  * @author Liu jun
  *
  */
-public class testSystemIn {
+public class SystemIn {
 	/**
 	 * @param args
 	 */
